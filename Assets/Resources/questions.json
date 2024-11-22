@@ -1,0 +1,330 @@
+{
+  "questionList": [
+  {
+    "question": "조정하다",
+    "answers": ["Adjust", "Steady", "Admire", "Evoke", "Retail"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "감탄하다",
+    "answers": ["Adjust", "Admire", "Retail", "Steady", "Evoke"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "소매",
+    "answers": ["Evoke", "Steady", "Admire", "Retail", "Adjust"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "불러일으키다",
+    "answers": ["Steady", "Evoke", "Adjust", "Retail", "Admire"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "안정된",
+    "answers": ["Retail", "Steady", "Adjust", "Evoke", "Admire"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "분석하다",
+    "answers": ["Analyze", "Promote", "Decide", "Employ", "Support"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "촉진하다",
+    "answers": ["Decide", "Analyze", "Promote", "Support", "Employ"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "결정하다",
+    "answers": ["Employ", "Support", "Analyze", "Decide", "Promote"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "고용하다",
+    "answers": ["Promote", "Decide", "Analyze", "Employ", "Support"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "지원하다",
+    "answers": ["Support", "Employ", "Analyze", "Promote", "Decide"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "제출하다",
+    "answers": ["Submit", "Acquire", "Achieve", "Maintain", "Explore"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "획득하다",
+    "answers": ["Explore", "Achieve", "Acquire", "Submit", "Maintain"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "성취하다",
+    "answers": ["Maintain", "Acquire", "Explore", "Achieve", "Submit"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "유지하다",
+    "answers": ["Submit", "Maintain", "Acquire", "Achieve", "Explore"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "탐험하다",
+    "answers": ["Explore", "Achieve", "Submit", "Maintain", "Acquire"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "발견하다",
+    "answers": ["Discover", "Contribute", "Calculate", "Preserve", "Deliver"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "기여하다",
+    "answers": ["Calculate", "Preserve", "Contribute", "Discover", "Deliver"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "계산하다",
+    "answers": ["Preserve", "Calculate", "Deliver", "Discover", "Contribute"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "보존하다",
+    "answers": ["Deliver", "Discover", "Preserve", "Calculate", "Contribute"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "전달하다",
+    "answers": ["Contribute", "Preserve", "Deliver", "Calculate", "Discover"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "구매하다",
+    "answers": ["Purchase", "Distribute", "Investigate", "Consider", "Negotiate"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "분배하다",
+    "answers": ["Negotiate", "Purchase", "Investigate", "Distribute", "Consider"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "조사하다",
+    "answers": ["Investigate", "Consider", "Purchase", "Distribute", "Negotiate"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "고려하다",
+    "answers": ["Consider", "Negotiate", "Investigate", "Purchase", "Distribute"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "협상하다",
+    "answers": ["Distribute", "Consider", "Negotiate", "Purchase", "Investigate"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "수리하다",
+    "answers": ["Repair", "Install", "Monitor", "Replace", "Measure"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "설치하다",
+    "answers": ["Monitor", "Replace", "Repair", "Install", "Measure"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "모니터하다",
+    "answers": ["Install", "Monitor", "Repair", "Replace", "Measure"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "교체하다",
+    "answers": ["Replace", "Install", "Repair", "Monitor", "Measure"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "측정하다",
+    "answers": ["Measure", "Install", "Repair", "Replace", "Monitor"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "동의하다",
+    "answers": ["Agree", "Specify", "Define", "Explain", "Estimate"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "명시하다",
+    "answers": ["Explain", "Estimate", "Specify", "Define", "Agree"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "정의하다",
+    "answers": ["Define", "Agree", "Specify", "Estimate", "Explain"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "설명하다",
+    "answers": ["Estimate", "Define", "Explain", "Specify", "Agree"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "추정하다",
+    "answers": ["Agree", "Estimate", "Define", "Specify", "Explain"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "확인하다",
+    "answers": ["Verify", "Expand", "Reduce", "Acquire", "Assist"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "확장하다",
+    "answers": ["Assist", "Reduce", "Expand", "Acquire", "Verify"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "줄이다",
+    "answers": ["Acquire", "Reduce", "Verify", "Expand", "Assist"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "도와주다",
+    "answers": ["Expand", "Verify", "Assist", "Acquire", "Reduce"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "습득하다",
+    "answers": ["Reduce", "Assist", "Acquire", "Expand", "Verify"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "알리다",
+    "answers": ["Inform", "Propose", "Attend", "Respond", "Conclude"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "제안하다",
+    "answers": ["Respond", "Attend", "Conclude", "Propose", "Inform"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "참석하다",
+    "answers": ["Conclude", "Respond", "Attend", "Inform", "Propose"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "응답하다",
+    "answers": ["Inform", "Attend", "Respond", "Propose", "Conclude"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "결론짓다",
+    "answers": ["Propose", "Inform", "Attend", "Respond", "Conclude"],
+    "correctAnswerIndex": 4
+  },
+  {
+    "question": "애매하게 하다",
+    "answers": ["Clarify", "Obfuscate", "Simplify", "Elucidate", "Define"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "눈에 띄는",
+    "answers": ["Ambiguous", "Subtle", "Conspicuous", "Hidden", "Obvious"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "난해한",
+    "answers": ["Common", "Esoteric", "Accessible", "Simple", "Popular"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "과시하는",
+    "answers": ["Ostentatious", "Humble", "Plain", "Subtle", "Modest"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "기력을 빼앗다",
+    "answers": ["Strengthen", "Enervate", "Empower", "Invigorate", "Energize"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "요약하다",
+    "answers": ["Expand", "Elaborate", "Recapitulate", "Lengthen", "Detail"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "미연에 방지하다",
+    "answers": ["Obviate", "Cause", "Introduce", "Trigger", "Complicate"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "어디에나 존재하는",
+    "answers": ["Ubiquitous", "Rare", "Local", "Uncommon", "Absent"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "가능성이 있는",
+    "answers": ["Actual", "Potential", "Definite", "Unlikely", "Proven"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "풍부한",
+    "answers": ["Scarce", "Abundant", "Limited", "Sparse", "Deficient"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "간결한",
+    "answers": ["Verbose", "Lengthy", "Concise", "Detailed", "Expansive"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "권위 있는",
+    "answers": ["Questionable", "Authoritative", "Doubtful", "Unreliable", "Insecure"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "상대적인",
+    "answers": ["Absolute", "Comparative", "Complete", "Final", "Certain"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "반복하다",
+    "answers": ["Avoid", "Repeat", "Cease", "Omit", "Neglect"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "강화하다",
+    "answers": ["Weaken", "Diminish", "Strengthen", "Undermine", "Erode"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "지속 가능한",
+    "answers": ["Temporary", "Sustainable", "Short-lived", "Fleeting", "Ephemeral"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "모호한",
+    "answers": ["Clear", "Vague", "Obvious", "Transparent", "Specific"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "회복력이 있는",
+    "answers": ["Fragile", "Resilient", "Brittle", "Weak", "Delicate"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "무시하다",
+    "answers": ["Ignore", "Acknowledge", "Consider", "Regard", "Recognize"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "변동이 심한",
+    "answers": ["Stable", "Volatile", "Constant", "Fixed", "Steady"],
+    "correctAnswerIndex": 1
+  }
+ ]
+}
+  
