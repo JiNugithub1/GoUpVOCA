@@ -41,5 +41,4 @@ GoUpVOCA는 **MIT License** 하에 배포됩니다. 그러나, 상업적 용도�
 MIT 라이선스에 대한 자세한 내용은 [LICENSE](LICENSE) 파일을 참조해주세요.
 
 ## 홍보 영상
-[![Video Label](https://youtu.be/gaMiFXAxYpU)
-
+[![Video Label](https://youtu.be/gaMiFXAxYpU)]
