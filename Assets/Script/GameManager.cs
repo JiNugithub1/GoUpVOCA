@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement; // 씬 전환을 위해 필요
 using System.Collections.Generic;
 using System.Collections; // 코루틴에 필요한 네임스페이스
+using System.Linq;
 
 
 [System.Serializable]
@@ -122,14 +123,52 @@ public class GameManager : MonoBehaviour
             ShuffleQuestions(selectedQuestions); // 질문 랜덤 섞기
         }
 
+        // 질문마다 정답 포함 로직 추가
+        foreach (var question in selectedQuestions)
+        {
+            PrepareQuestionWithDifficulty(question, numberOfAnswers);
+        }
+
         // 무작위로 문제를 가져옴 (목숨이 끝날 때까지 반복적으로)
         currentQuestionIndex = 0; // 새로 섞인 질문 리스트의 첫 번째 질문부터 시작
     }
-    void ShuffleQuestions(List<QuestionData> questionList)
+    
+    // 정답 포함 및 무작위 정렬 로직 추가
+    void PrepareQuestionWithDifficulty(QuestionData question, int numberOfAnswers)
     {
-        for (int i = 0; i < questionList.Count; i++)
+        List<string> possibleAnswers = new List<string>(question.answers);
+        string correctAnswer = question.answers[question.correctAnswerIndex];
+
+        // 정답 제외한 무작위 단어 선택
+        possibleAnswers.Remove(correctAnswer);
+        ShuffleList(possibleAnswers); // 문자열 리스트 섞기
+
+        // 정답 포함한 최종 리스트 생성
+        List<string> finalAnswers = new List<string> { correctAnswer };
+        finalAnswers.AddRange(possibleAnswers.Take(numberOfAnswers - 1));
+
+        // 최종 리스트 무작위로 섞기
+        ShuffleList(finalAnswers); // 문자열 리스트 섞기
+
+        // 질문 데이터 업데이트
+        question.answers = finalAnswers.ToArray();
+        question.correctAnswerIndex = finalAnswers.IndexOf(correctAnswer);
+    }
+    void ShuffleList<T>(List<T> list)
+    {
+        for (int i = list.Count - 1; i > 0; i--)
         {
-            int randomIndex = Random.Range(0, questionList.Count);
+            int randomIndex = Random.Range(0, i + 1);
+            T temp = list[i];
+            list[i] = list[randomIndex];
+            list[randomIndex] = temp;
+        }
+    }
+    void ShuffleQuestions(List<QuestionData> questionList) // Fisher-Yates 알고리즘
+    {
+        for (int i = questionList.Count - 1; i > 0; i--)
+        {
+            int randomIndex = Random.Range(0, i + 1);
             QuestionData temp = questionList[i];
             questionList[i] = questionList[randomIndex];
             questionList[randomIndex] = temp;
