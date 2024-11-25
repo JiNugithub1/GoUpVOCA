@@ -21,7 +21,7 @@
 [**GoUpVOCA APK 다운로드**](https://drive.google.com/file/d/1-A92UmeLVKlWrVJVJK1kfV1TsD7O-3uu/view?usp=sharing) (버그 수정 전)
 
 **v0.0.2**
-[**GoUpVOCA APK 다운로드**]() (버그 수정 후)
+[**GoUpVOCA APK 다운로드**](https://drive.google.com/file/d/1dGpycNGAG-XFYg_tPCPMj7Ua_7trnmxT/view?usp=sharing) (버그 수정 후)
 
 ## 수정 사항
 
