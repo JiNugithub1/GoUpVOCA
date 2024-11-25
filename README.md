@@ -18,16 +18,20 @@
 **IOS 버전은 없습니다. 추후 추가할 예정입니다.**
 
 **v0.0.1**
-[**GoUpVOCA APK 다운로드**](https://drive.google.com/file/d/1-A92UmeLVKlWrVJVJK1kfV1TsD7O-3uu/view?usp=sharing) (버그 수정 전)
+[**GoUpVOCA APK 다운로드v0.0.1**](https://drive.google.com/file/d/1-A92UmeLVKlWrVJVJK1kfV1TsD7O-3uu/view?usp=sharing) (버그 수정 전)
 
 **v0.0.2**
-[**GoUpVOCA APK 다운로드**](https://drive.google.com/file/d/1dGpycNGAG-XFYg_tPCPMj7Ua_7trnmxT/view?usp=sharing) (버그 수정 후)
+[**GoUpVOCA APK 다운로드v0.0.3**](https://drive.google.com/file/d/1dGpycNGAG-XFYg_tPCPMj7Ua_7trnmxT/view?usp=sharing) (버그 수정 후)
 
 ## 수정 사항
 
 **11/22 깃허브 및 안드로이드 빌드**
 
 **11/24 단어 JSON 리스트 랜덤 출력 및 난이도에 따른 정답 출력 버그 수정**
+
+**11/24 메인 게임화면에서 뒤로 나가기 버튼 추가**
+
+**11/25 틀린 문제 오답노트 형식의 단어 리스트 저장 시스템 구현**
 
 ## 개발 환경
 
