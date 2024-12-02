@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
     private List<QuestionData> questions;          // JSON에서 로드한 전체 문제 리스트
     private List<QuestionData> selectedQuestions;  // 난이도에 맞춰 선택된 문제 리스트
     private int numberOfAnswers;                   // 현재 난이도에서의 답안 개수
+    public List<QuestionData> incorrectQuestions = new List<QuestionData>(); // 틀린 문제를 저장할 리스트
     
     void Start()
     {
@@ -206,7 +207,6 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("Displayed Question: " + currentQuestion.question);
     }
-
     void UpdateLivesUI()
     {
         for (int i = 0; i < heartImages.Length; i++)
@@ -214,8 +214,7 @@ public class GameManager : MonoBehaviour
             heartImages[i].enabled = i < remainingLives; // 남은 목숨만큼 하트 이미지를 활성화
         }
     }
-
-  void OnAnswerSelected(int index)
+    void OnAnswerSelected(int index)
     {
         if (index == selectedQuestions[currentQuestionIndex].correctAnswerIndex)
         {
@@ -236,11 +235,14 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            // 틀린 문제 저장
+            incorrectQuestions.Add(selectedQuestions[currentQuestionIndex]);
             remainingLives--; // 목숨 감소
             UpdateLivesUI(); // UI 업데이트
 
             if (remainingLives <= 0)
             {
+                SaveIncorrectQuestions();  // 틀린 문제 저장
                 Debug.Log("Game Over!");
                 SaveGameData(); // 데이터 저장
                 StartCoroutine(PlayGameOverAndLoadScene());
@@ -248,6 +250,7 @@ public class GameManager : MonoBehaviour
             }
             else
             {
+                
                 Debug.Log("Incorrect Answer. Remaining Lives: " + remainingLives);
                 // 문제 틀린 소리 재생
                 if (incorrectAnswerSound != null)
@@ -264,6 +267,17 @@ public class GameManager : MonoBehaviour
         // 다음 문제로 전환
         currentQuestionIndex++; // 다음 문제로 이동
         DisplayNextQuestion();  // 다음 문제 표시
+    }
+    // 틀린 문제를 PlayerPrefs에 저장하는 메서드
+    void SaveIncorrectQuestions()
+    {
+        if (incorrectQuestions.Count > 0)
+        {
+            // 틀린 문제 리스트를 JSON 문자열로 변환
+            string json = JsonUtility.ToJson(new QuestionDataList { questionList = incorrectQuestions });
+            PlayerPrefs.SetString("IncorrectQuestions", json);
+            PlayerPrefs.Save();
+        }
     }
     private IEnumerator PlayGameOverAndLoadScene()
     {
