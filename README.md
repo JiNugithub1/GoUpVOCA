@@ -23,6 +23,9 @@
 **v0.0.2**
 [**GoUpVOCA APK 다운로드v0.0.3**](https://drive.google.com/file/d/1dGpycNGAG-XFYg_tPCPMj7Ua_7trnmxT/view?usp=sharing) (버그 수정 후)
 
+**v0.0.4**
+[**GoUpVOCA APK 다운로드v0.0.4**](https://drive.google.com/file/d/1KQL702Lr8ILvyfdnsZzgA5T3vsvvtavY/view?usp=sharing) (ICON 추가 수정버전)
+
 ## 수정 사항
 
 **11/22 깃허브 및 안드로이드 빌드**
@@ -32,6 +35,8 @@
 **11/24 메인 게임화면에서 뒤로 나가기 버튼 추가**
 
 **11/25 틀린 문제 오답노트 형식의 단어 리스트 저장 시스템 구현**
+
+**11/30 ICON 오류 수정**
 
 ## 개발 환경
 
