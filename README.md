@@ -1,9 +1,6 @@
 # 올라가보카! (UpVoca) 📖🎮  
 **토익 단어 암기를 쉽고 재미있게!**  
-올라가보카는 퀴즈 형식의 게임을 통해 토익 필수 단어를 효과적으로 학습할 수 있도록 제작된 모바일 게임입니다.  
-
-![올라가보카_홍보화면](https://github.com/user-attachments/assets/c99a74fb-c2e3-4f9f-a8d1-3715021d6b44)  
-
+올라가보카는 퀴즈 형식의 게임을 통해 토익 필수 단어를 효과적으로 학습할 수 있도록 제작된 모바일 게임입니다.   
 ---
 
 ## 📌 프로젝트 개요  
@@ -48,7 +45,7 @@
 ## 📸 게임 스크린샷  
 | 메인 화면 | 퀴즈 진행 | 게임 오버 |
 |-----------|----------|-----------|
-| ![메인 화면](./main_screen.png) | ![퀴즈 진행](./quiz_screen.png) | ![게임 오버](./gameover_screen.png) |
+| ![메인 화면](https://github.com/user-attachments/assets/6a4ec310-b951-4fcd-85a8-99a25d193b95) | ![퀴즈 진행](https://github.com/user-attachments/assets/860880d0-0e5d-49de-a58e-570703aba844) | ![게임 오버](https://github.com/user-attachments/assets/ef2c9728-bd6f-47d6-879c-a05db41941f5) |
 
 ---
 
@@ -72,6 +69,6 @@
 ---
 
 ## 🧑‍💻 개발자  
-**👨‍💻 개발 및 디자인**: [사용자명](https://github.com/JiNugithub1)  
+**👨‍💻 개발 및 디자인**: [전진우](https://github.com/JiNugithub1)  
 
 ---
