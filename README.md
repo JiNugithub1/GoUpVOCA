@@ -1,6 +1,9 @@
 # 올라가보카! (UpVoca) 📖🎮  
+
 **토익 단어 암기를 쉽고 재미있게!**  
-올라가보카는 퀴즈 형식의 게임을 통해 토익 필수 단어를 효과적으로 학습할 수 있도록 제작된 모바일 게임입니다.   
+
+올라가보카는 퀴즈 형식의 게임을 통해 토익 필수 단어를 효과적으로 학습할 수 있도록 제작된 모바일 게임입니다.
+
 ---
 
 ## 📌 프로젝트 개요  
@@ -53,11 +56,6 @@
 ### 🔹 Android 설치  
 1. [🔗 APK 다운로드](https://drive.google.com/file/d/1KQL702Lr8ILvyfdnsZzgA5T3vsvvtavY/view?usp=sharing) 후 설치  
 2. 앱 실행 후 난이도 선택하여 시작  
-
-### 🔹 Unity에서 실행  
-1. `git clone https://github.com/JiNugithub1/GoUpVOCA.git`  
-2. Unity 2022.3.22f1로 열기  
-3. `MainScene` 실행  
 
 ---
 
